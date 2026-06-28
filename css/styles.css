@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  border: 0;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d6a6be;
+  padding: 12px 20px;
+}
+
+.logo-titulo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.logo-titulo > img {
+  width: 60px;
+}
+
+.contacto {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.contacto > img {
+  width: 24px;
+}
+.contacto p {
+  font-weight: 500;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid black;
+  padding: 8px 0px;
+}
+nav > ul {
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.buscar {
+  display: flex;
+}
+.buscar > input {
+  border: 2px solid black;
+  height: 30px;
+  width: 250px;
+  border-radius: 12px 0px 0px 12px;
+}
+.buscar > button {
+  width: 80px;
+  background-color: #d6a6be;
+}
+
+.carrito {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.carrito > img {
+  width: 24px;
+}
+.carrito h3 {
+  font-size: 32px;
+}
+.tarjetas {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 60px;
+}
+.tarjeta {
+  width: 250px;
+  background-color: #eeeeee;
+  border-radius: 12px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.tarjeta > img {
+  width: 180px;
+  border-radius: 8px;
+}
+
+.tarjeta > button {
+  background-color: #d6a6be;
+
+  border-radius: 50%;
+  display: flex;
+  padding: 8px;
+}
+
+button img {
+  width: 18px;
+}
+
+.stock-filtro {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+
+main {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #d6a6be;
+  display: flex;
+  justify-content: space-between;
+}
+.rrss {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+}
+.logo-footer img {
+  width: 60px;
+}
