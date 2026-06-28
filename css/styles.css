@@ -44,7 +44,7 @@ nav {
 nav > ul {
   display: flex;
   list-style-type: none;
-  gap: 24px;
+  gap: 60px;
 }
 nav a {
   text-decoration: none;
@@ -63,6 +63,7 @@ nav a {
 .buscar > button {
   width: 80px;
   background-color: #d6a6be;
+  box-shadow: 3px 3px 0px black;
 }
 
 .carrito {
@@ -115,6 +116,18 @@ button img {
   padding-left: 100px;
   padding-bottom: 20px;
 }
+.stock-filtro span {
+  font-weight: bold;
+}
+
+.filtro {
+  width: 200px;
+  height: 30px;
+  border: 3px solid black;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 25px;
+}
 
 main {
   background-color: #ffffff;
@@ -124,12 +137,13 @@ footer {
   background-color: #d6a6be;
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
 .rrss {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
 }
 .logo-footer img {
   width: 60px;
