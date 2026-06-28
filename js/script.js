@@ -12,5 +12,3 @@ botones_agregar.forEach(function (boton) {
     cantidad.textContent = parseInt(cantidad.textContent) + 1;
   });
 });
-
-id = "agregar-carrito";
